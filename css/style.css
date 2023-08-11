@@ -4,7 +4,7 @@
 } */
 
 #body {
-    background-color: #a5a2a2;
+    background-color: #2C2C2C;
 }
 
 /* hero background image */
@@ -26,11 +26,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgba(140, 243, 14, 0.625);
-}
-.navbar-text-frame {
-    border-style: solid;
-    border-color: rgba(20, 24, 15, 0.625);
+    color: #FF9950;
 }
 
 
@@ -74,7 +70,8 @@
     color: rgba(20, 24, 15, 0.625);
 }
 .servicesText:hover {
-    border: 3px solid rgba(20, 24, 15, 0.625);
+    border: 3px solid ;
+    color: #FF9950;
 }
 
 /* social media icons styling */
@@ -152,3 +149,5 @@
     outline-offset: 15px;
     color: var(--accent);
 }
+
+
