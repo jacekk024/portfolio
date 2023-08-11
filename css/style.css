@@ -1,7 +1,7 @@
 /* display background color black on navbar scroll */
-.navbarScroll.navbarDark {
+/* .navbarScroll.navbarDark {
     background-color: rgb(42, 41, 41);
-}
+} */
 
 #body {
     background-color: #a5a2a2;
@@ -45,9 +45,9 @@
     padding-bottom: 4rem;
 }
 /* about section image css */
-.imageAboutPage {
+/* .imageAboutPage {
     width: 100%;
-}
+} */
 
 /* services section css */
 .servicesText.card {
@@ -83,13 +83,72 @@
     cursor: pointer;
 }
 .fa-linkedin:hover,  .fa-github:hover {
-    color: rgba(53, 58, 46, 0.625);
+    color: #FF9950;
 }
 .fab {
-    color: rgba(140, 243, 14, 0.625);
+    color: rgba(255, 255, 255, 0.625);
 }
 /* footer styling */
 #footer {
-    background-color: #646464;
+    /* background-color: #646464; */
     text-align: center;
+}
+
+
+/* Magic  button */
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+
+:root {
+    --background: #2C2C2C;
+    --accent: #FF9950;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+/* html {
+    font-family: 'Mulish';
+    font-size: 16px;
+} */
+
+.background {
+    background-color: var(--background);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.button {
+    border: 0px solid;
+    outline: 2px solid;
+    color: white;
+    outline-color: white;
+    outline-offset: 0px;
+    text-shadow: none;
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 2.5rem;
+    max-width: 160px; 
+    width: 100%; 
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    transition: all 550ms cubic-bezier(
+        .36,.63,.5,.73
+    );
+}
+
+.button:hover {
+    border: 2px solid var(--accent);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    color: var(--accent);
 }
