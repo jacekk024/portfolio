@@ -1,7 +1,3 @@
-/* display background color black on navbar scroll */
-/* .navbarScroll.navbarDark {
-    background-color: rgb(44, 44, 44);
-} */
 
 .navbar-color{
     background-color: rgb(28, 28, 28);
@@ -10,14 +6,21 @@
 
 #body {
     background-image: linear-gradient(#2b2b2b,#424242);
+    
 }
 
 /* hero background image */
+
 .bgimage {
     height:100vh;
     background-size:cover;
     position:relative;
+    background-image: linear-gradient(#420ce1,#1c0660);
+    border-radius: 20px;
+    margin: 30px;
 }
+
+
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
@@ -69,28 +72,32 @@
     background-image: linear-gradient(rgb(77, 77, 77), rgb(148, 148, 148)) ;
 }
 
-.servicesText.card {
-    height: 100px;
-    width: 100px;
-    cursor: pointer;
-    padding: 5px;
+.servicesText {
+    height: 150px;
+    width: 200px;
     background-color: transparent;
     border-color: white;
-}
+    border-radius: 20px;
 
 
-.servicesIcon {
-    font-size: 36px;
-    text-align: center;
-    width: 100%;
 }
 
-.card:hover .servicesIcon {
-    color: white;
-}
 .servicesText:hover {
     border: 3px solid ;
     color: #FF9950;
+}
+
+.skills-icon{
+    width: 100%;
+    padding: 40px;
+    flex: auto;
+}
+.row{
+    margin: 10px;
+
+    padding-left: 30px;
+    align-items: stretch;
+    align-content: space-between;
 }
 
 /* social media icons styling */
@@ -113,7 +120,6 @@
 
 /* Magic  button */
 
-
 :root {
     --accent: #FF9950;
 }
@@ -123,15 +129,13 @@
     outline: 1px solid;
     color: white;
     text-shadow: none;
-    padding: 15px;
+    padding: 17px;
     cursor: pointer;
     font-size: 1rem;
     line-height: 1rem;
-    max-width: 130px; 
-    width: 100%; 
+    width: 80%; 
     letter-spacing: 0.3rem;
     font-weight: 300;
-    position: relative;
     text-decoration: none;
     text-transform: uppercase;
     display: flex;
@@ -146,6 +150,19 @@
     outline-offset: 10px;
     color: var(--accent);
 }
+
+/* Skills */
+
+
+/* Optional: If you want to ensure the centered-container takes up full viewport height and centers items vertically */
+.centered-container {
+    height: 100vh;
+    align-items: center;       /* Vertically center the items */
+}
+/* 
+.row-container {
+    
+} */
 
 
 /* Portfolio */
