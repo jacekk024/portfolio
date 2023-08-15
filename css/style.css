@@ -64,40 +64,68 @@
 
 .background-style{
     height:80vh;
-    background-size:auto;
     position:relative;
     margin-left: 30px;
     margin-right: 30px;
     border-radius: 30px;
-    background-image: linear-gradient(rgb(77, 77, 77), rgb(148, 148, 148)) ;
+    background-image: linear-gradient(rgb(82, 81, 81), rgb(59, 56, 212));
 }
-
+/* 
 .servicesText {
     height: 150px;
-    width: 30%;
-    /* background-color: transparent; */
+    width: 100px;
     border-color: white;
     border-radius: 30px;
-    align-items: center;
-    /* margin-left: 30px;
-    margin-right: 10px; */
     background-image: linear-gradient(rgb(37, 37, 37), rgb(40, 38, 150));
+} */
 
-
-}
-
-.servicesText:hover {
+/* .servicesText:hover {
     border: 3px solid ;
     color: #FF9950;
-}
+} */
 
-.skills-icon{
+/* .skills-icon{
     width: 30%;
     height: 40%;
     padding: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+} */
+
+.grid-container {
+    justify-content: center;
+    display: grid;
+    gap: 60px 60px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    padding-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 30px;
+}
+  
+.grid-item {
+    border-radius: 30px;
+    background-image: linear-gradient(rgb(50, 50, 50), rgb(41, 39, 167));
+    padding: 20px;
+    outline: 2px solid;
+    color: rgb(0, 38, 144);
+    cursor: pointer;
+    transition: all 550ms cubic-bezier(
+        .36,.63,.5,.73
+    );
+}
+
+.grid-item:hover {
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 20px;
+    color: #a083ff;
+}
+
+
+.img-style{
+    width: 100%;
 }
 
 
@@ -120,11 +148,6 @@
 
 
 /* Magic  button */
-
-:root {
-    --accent: #FF9950;
-}
-
 
 .button {
     outline: 1px solid;
@@ -149,7 +172,7 @@
 .button:hover {
     outline-color: rgba(255, 255, 255, 0);
     outline-offset: 10px;
-    color: var(--accent);
+    color: #FF9950;
 }
 
 /* Skills */
