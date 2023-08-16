@@ -1,8 +1,26 @@
 
+/* begin navbar section*/
 .navbar-color{
     background-color: rgb(28, 28, 28);
     height: 100px;
 }
+
+.topnav {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center;    /* Vertically center the content */
+    overflow: hidden;
+    background-color: rgb(28, 28, 28);
+    text-align: center;
+    height: 10vh;
+
+  }
+  .topnav a{
+    letter-spacing: 0.3rem;
+  }
+
+
+/* end navbar section*/
 
 #body {
     background-image: linear-gradient(#420ce1,#1c0660);
@@ -55,9 +73,7 @@
     text-transform: uppercase;
 }
 
-/* services section css */
-
-
+/* begin skills section css */
 
 .grid-container {
     justify-content: center;
@@ -71,10 +87,9 @@
   
 .grid-item {
     border-radius: 90px;
-    background-image: linear-gradient(rgb(50, 50, 50), rgb(78, 76, 185));
+    background-image: linear-gradient(rgb(57, 57, 57), rgb(31, 31, 153));
     padding: 25px;
-    outline: 3px solid;
-    color: rgb(78, 76, 185);
+    outline: 1px solid;
     cursor: pointer;
     transition: all 550ms cubic-bezier(
         .36,.63,.5,.73
@@ -87,10 +102,10 @@
     color: #a083ff;
 }
 
-
 .img-style{
     width: 100%;
 }
+/* end skills section css */
 
 
 /* social media icons styling */
@@ -115,7 +130,6 @@
     outline: 1px solid;
     color: white;
     padding: 0.5vw;
-    letter-spacing: 0.2rem;
     text-decoration: none;
     text-transform: uppercase;
     transition: all 550ms cubic-bezier(
