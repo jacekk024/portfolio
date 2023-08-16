@@ -89,7 +89,7 @@
     border-radius: 90px;
     background-image: linear-gradient(rgb(57, 57, 57), rgb(31, 31, 153));
     padding: 25px;
-    outline: 1px solid;
+    outline: 2px solid;
     cursor: pointer;
     transition: all 550ms cubic-bezier(
         .36,.63,.5,.73
@@ -99,7 +99,7 @@
 .grid-item:hover {
     outline-color: rgba(255, 255, 255, 0);
     outline-offset: 20px;
-    color: #a083ff;
+    color: #0b002f;
 }
 
 .img-style{
@@ -129,7 +129,8 @@
 .button {
     outline: 1px solid;
     color: white;
-    padding: 0.5vw;
+    padding: 0.2vw;
+    letter-spacing: 0.15rem;
     text-decoration: none;
     text-transform: uppercase;
     transition: all 550ms cubic-bezier(
