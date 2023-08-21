@@ -112,7 +112,7 @@
     font-size: 36px;
     cursor: pointer;
 }
-.fa-linkedin:hover,.fa-github:hover,.fa-envelope:hover{
+.fa-linkedin:hover,.fa-github:hover,.fa-envelope:hover,.fa-eye:hover{
     color: #b158a2;
 }
 .fab,.fa {
@@ -121,7 +121,7 @@
 
 /* footer styling */
 #footer {
-    background-color: rgb(28, 28, 28);
+    background-color: #1c1c1c;
     text-align: center;
     border-radius: 20px;
 }
@@ -139,7 +139,7 @@
 }
 
 .button:hover {
-    outline-color: rgba(255, 255, 255, 0);
+    outline-color: #ffffff00;
     outline-offset: 10px;
     color: #b158a2;
 }
@@ -162,20 +162,16 @@
 .button-stock-app{
     text-align: center;
     background-color:#b158a2;
-    border-radius: 20px;
+    border-radius: 100px;
     overflow: hidden;
-    height: 70;
-    width: 150;
+
 }
     
 .text-stock-app{
     text-decoration: none;
     color:#3a1c29;
-    text-align: center;
     background-color:#b158a2;
-    border-radius: 50;
-    height: 70;
-    width: 10vw;
+
     font-weight: 100;
 }
 
@@ -186,11 +182,7 @@
     font-weight: 100;
 }
 
-.card-body {
-    /* height:100vh; */
-    background-size:cover;
-    position:relative;
-}
+
 
 /* End Portfolio */
 
@@ -209,8 +201,7 @@
 .row{    
     text-align: center; /* Wyrównanie tekstu do prawej */
     padding-top: 30vh;
-    display: inline-block;
-    vertical-align: middle;
+    flex: 2;
 }
 .row a{
     text-decoration: underline;
