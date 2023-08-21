@@ -87,7 +87,7 @@
   
 .grid-item {
     border-radius: 90px;
-    background-image: linear-gradient(rgb(57, 57, 57), rgb(31, 31, 153));
+    background-image: linear-gradient(#4d4d4d, #3636c5);
     padding: 25px;
     outline: 2px solid;
     cursor: pointer;
@@ -99,7 +99,7 @@
 .grid-item:hover {
     outline-color: rgba(255, 255, 255, 0);
     outline-offset: 20px;
-    color: #0b002f;
+    color: #b158a2;
 }
 
 .img-style{
@@ -113,7 +113,7 @@
     cursor: pointer;
 }
 .fa-linkedin:hover,.fa-github:hover,.fa-envelope:hover{
-    color: #FF9950;
+    color: #b158a2;
 }
 .fab,.fa {
     color: rgba(255, 255, 255, 0.625);
@@ -141,16 +141,11 @@
 .button:hover {
     outline-color: rgba(255, 255, 255, 0);
     outline-offset: 10px;
-    color: #FF9950;
+    color: #b158a2;
 }
-
-/* Skills */
-
 
 
 /* Begin Portfolio */
-
-
 .stock-app-text{
     color: #ffffff;
     text-align: center;
@@ -159,15 +154,14 @@
 }
 
 .card-background{
-    background-image: linear-gradient(#393939, #1f1f99)
+    background-image: linear-gradient(#b158a2, #1f1f99);
+    align-items: center;
 }
-
-
 
 /* Stock App*/
 .button-stock-app{
     text-align: center;
-    background-color:#FF9950;
+    background-color:#b158a2;
     border-radius: 20px;
     overflow: hidden;
     height: 70;
@@ -177,9 +171,9 @@
 .text-stock-app{
     text-decoration: none;
     display: block; 
-    color:black;
+    color:#3a1c29;
     text-align: center;
-    background-color:#FF9950;
+    background-color:#b158a2;
     border-radius: 50;
     height: 70;
     width: 150;
@@ -188,34 +182,32 @@
 
 /* End Portfolio */
 
-
-
-
  /* Begin Contact */
 
 
  /* Container style */
  .contact-container {
-    display: flex;
-    padding: 20px;
-    border: 1px solid #ccc;
-    background-color: #fff;
+   
+    border: 1px solid #b158a2;
+    background-color: transparent;
     border-radius: 20px;
-    margin:30px;
-}
-
-/* Column styles */
-.column {
+    margin:5vh;
+    flex-direction: column;
     flex: 1;
-    padding: 10px;
 }
+.row{
 
-/* Heading and link styles */
-.column a {
-    text-decoration: none;
-    color: white;
+    text-align: center;
+    padding-top: 30vh;
 }
-
-.column a:hover {
+.row a{
     text-decoration: underline;
+    text-decoration: none;
+    color: #ffffff;
 }
+
+.header-style{
+    color: #ffffff;
+    size: 10vh;
+}
+
