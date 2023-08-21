@@ -16,6 +16,7 @@
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 10px;
+    gap: 10px;
 
   }
   .topnav a{
@@ -25,18 +26,32 @@
 
 /* end navbar section*/
 
+/* Begin Common styles*/
 #body {
     background-image: linear-gradient(#420ce1,#1c0660);
     margin: 10px 10px 10px 10px;
 }
 
-/* hero background image */
+.text-style{
+    text-align: center;
+    color:white;
+    font-weight: lighter;
+
+    letter-spacing: 0.9rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
 
 .background-style{
     height:100vh;
     background-size:cover;
     position:relative;
 }
+/* End Common styles*/
+
+
+
 
 /* text css above hero image*/
 .hero_title {
@@ -56,24 +71,6 @@
     color: white;
     font-weight: 100;
 
-}
-
-/* spacing on all sections */
-#about, #portfolio, #contact {
-    margin-top: 4rem;
-    padding-top: 4rem;
-}
-#contact {
-    padding-bottom: 4rem;
-}
-.text-style{
-    text-align: center;
-    color:white;
-    font-weight: lighter;
-
-    letter-spacing: 0.9rem;
-    text-decoration: none;
-    text-transform: uppercase;
 }
 
 /* begin skills section css */
@@ -150,23 +147,24 @@
 /* Skills */
 
 
-/* Optional: If you want to ensure the centered-container takes up full viewport height and centers items vertically */
-.centered-container {
-    height: 100vh;
-    align-items: center;       /* Vertically center the items */
+
+/* Begin Portfolio */
+
+
+.stock-app-text{
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 0.5rem;
+    font-weight: 100;
 }
-/* 
-.row-container {
-    
-} */
 
+.card-background{
+    background-image: linear-gradient(#393939, #1f1f99)
+}
 
-/* Portfolio */
 
 
 /* Stock App*/
-
-
 .button-stock-app{
     text-align: center;
     background-color:#FF9950;
@@ -188,8 +186,12 @@
     font-weight: 100;
 }
 
+/* End Portfolio */
 
- /* Contact */
+
+
+
+ /* Begin Contact */
 
 
  /* Container style */
