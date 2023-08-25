@@ -115,9 +115,11 @@
 .fa-linkedin:hover,.fa-github:hover,.fa-envelope:hover,.fa-eye:hover{
     color: #b158a2;
 }
-.fab,.fa {
+.fab, .fa {
     color: rgba(255, 255, 255, 0.625);
+    align-content: center;
 }
+
 
 /* footer styling */
 #footer {
@@ -160,18 +162,23 @@
 
 /* Stock App*/
 .button-stock-app{
-    text-align: center;
     background-color:#b158a2;
-    border-radius: 100px;
-    overflow: hidden;
-
+    border-radius: 3vh;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    transition: all 550ms cubic-bezier(
+        .36,.63,.5,.73
+    );
+}
+.button-stock-app:hover {
+    background-color: #491841;
 }
     
 .text-stock-app{
+    color: white;
     text-decoration: none;
-    color:#3a1c29;
-    background-color:#b158a2;
-
     font-weight: 100;
 }
 
@@ -182,35 +189,41 @@
     font-weight: 100;
 }
 
-
+.button-link{
+    justify-content: center;
+    flex: auto;
+    display: flex;
+    text-decoration: none;
+}
 
 /* End Portfolio */
 
  /* Begin Contact */
 
-
  /* Container style */
  .contact-container {
    
-    border: 2px solid #b158a2;
+    border: 1px solid #b158a2;
     background-color: transparent;
     border-radius: 20px;
     margin:5vh;
-
 }
 .row{    
-    text-align: center; /* Wyrównanie tekstu do prawej */
-    padding-top: 30vh;
-    flex: 2;
+
+    height: 100px;
+    padding: 30vh 30vw;
+    text-align: left;
 }
 .row a{
-    text-decoration: underline;
+    font-size: 25px;
     text-decoration: none;
     color: #ffffff;
+    font-weight: 100;
 }
 
 .header-style{
     color: #ffffff;
-    size: 10vh;
+    font-weight: 600;
+    font-size: 25px;
 }
 
