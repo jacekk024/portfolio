@@ -61,7 +61,8 @@
     font-size: 30px;
     font-weight: 100;
     text-align: left;
-    padding-left: 20px;
+    padding: 20vh 30vw;
+    
 }
 .hero-text {
     text-align: center;
