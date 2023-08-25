@@ -58,9 +58,10 @@
     font-size: 4.5rem;
 }
 .hero_desc {
-    font-size: 2rem;
+    font-size: 30px;
     font-weight: 100;
-
+    text-align: left;
+    padding-left: 20px;
 }
 .hero-text {
     text-align: center;
@@ -215,7 +216,7 @@
     text-align: left;
 }
 .row a{
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
     color: #ffffff;
     font-weight: 100;
@@ -223,7 +224,7 @@
 
 .header-style{
     color: #ffffff;
-    font-weight: 600;
-    font-size: 25px;
+    font-weight: 500;
+    font-size: 20px;
 }
 
